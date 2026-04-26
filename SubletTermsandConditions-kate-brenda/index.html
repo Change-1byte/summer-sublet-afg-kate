@@ -50,9 +50,29 @@
       font-size: 1rem;
       margin: 0;
     }
+    .page-nav {
+      display:flex;
+      justify-content:center;
+      gap:16px;
+      margin:20px 0 10px;
+    }
+    
+    .page-nav a {
+    padding:10px 16px;
+    border:1px solid #e5ddd2;
+    border-radius:999px;
+    background:#ffffff;
+    color:#7c4a2d;
+    text-decoration:none;
+    font-weight:600;
+    }
+    
+    .page-nav a:hover {
+    background:#f1e3d7;
+    }
 
     section,
-    nav {
+    #table-of-contents {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -146,6 +166,10 @@
     <header>
       <h1>Summer Sublet Terms and Conditions</h1>
       <p class="subtitle">Payment, move-in / move-out video documentation, and security deposit rules</p>
+      <nav class="page-nav">
+        <a href="../">Sublet Introduction</a>
+        <a href="../Move-OutandCleaning-kate-brenda/">Move-Out & Cleaning</a>
+      </nav>
     </header>
 
     <section id="identity-statement">
